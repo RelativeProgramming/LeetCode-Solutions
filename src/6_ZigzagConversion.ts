@@ -35,9 +35,3 @@ function convert(s: string, numRows: number): string {
 
     return builder.join("");
 };
-
-
-let res = convert("PAYPALISHIRING", 4);
-console.log(res);
-//console.log(res === "PAHNAPLSIIGYIR");
-console.log(res === "PINALSIGYAHRPI");
